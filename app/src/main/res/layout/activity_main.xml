@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".app.app.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <RadioButton
+        android:id="@+id/shouye"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:gravity="center"
+        android:drawableTop="@drawable/set_shouye"
+        android:textColor="@drawable/text_setcolor"
+        android:text="首页"/>
+    <RadioButton
+            android:id="@+id/faxian"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:gravity="center"
+            android:drawableTop="@drawable/set_faxian"
+            android:textColor="@drawable/text_setcolor"
+            android:text="发现"/>
+    <RadioButton
+        android:id="@+id/dingdan"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:gravity="center"
+        android:drawableTop="@drawable/set_dingdan"
+        android:textColor="@drawable/text_setcolor"
+        android:text="订单"/>
+    <RadioButton
+        android:id="@+id/wode"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:gravity="center"
+        android:drawableTop="@drawable/set_wode"
+        android:textColor="@drawable/text_setcolor"
+        android:text="我的" />
+    </RadioGroup>
+
+</LinearLayout>
